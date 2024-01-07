@@ -1,8 +1,7 @@
 fastapi==0.78.0
 uvicorn==0.18.2
 txtai[all]
-sentencepiece
-sacremoses
+pybind11
 fasttext
 torch
 torchvision
