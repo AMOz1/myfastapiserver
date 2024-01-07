@@ -2,7 +2,6 @@ fastapi==0.78.0
 uvicorn==0.18.2
 txtai[all]
 pybind11
-fasttext
 torch
 torchvision
 gradio
