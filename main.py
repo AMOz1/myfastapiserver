@@ -15,6 +15,8 @@ import os
 
 load_dotenv()
 
+openai_api_key = os.getenv("OPENAI_API_KEY")
+
 # ingest document from website. This loader can be replaced by other loader to load 
 # other types of documents. ex: pdf in a folder
 #  def ingest_docs():
